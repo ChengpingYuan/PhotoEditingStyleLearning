@@ -13,15 +13,15 @@ Photographers have their own shooting and editing styles. Also editing is big pa
 
 Raw photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/DSC02819.jpg](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/DSC02819.jpg)
+!https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819.jpg](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819.jpg)
 
 Raw photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/DSC09738%201.jpg](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/DSC09738%201.jpg)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC09738%201.jpg](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC09738%201.jpg)
 
 Edited photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/DSC02819%201.jpg](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/DSC02819%201.jpg)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819%201.jpg](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819%201.jpg)
 
 Edited photo
 
@@ -61,7 +61,7 @@ The default hyper parameters in cited paper were:
 
 Using this default setting, training one model of 20,000 iterations took me about 10 hours in a GTX 2080 video card. However, the result on this default setting are only acceptable not good enough. The color was over exposed, see example:
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC02852_iteration_29000_before_after.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC02852_iteration_29000_before_after.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC02852_iteration_29000_before_after.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC02852_iteration_29000_before_after.png)
 
 Left: Raw photo. Right: Model processed photo
 
@@ -75,71 +75,71 @@ So I started to adjust loss weight between color and content loss. I also increa
 
 This model took me 15 hour to train. After this, I realize there is no way I can improve this during such short time with my limited computational resource. Below is the loss plots with the best model:
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled.png)
 
 Train Loss
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%201.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%201.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%201.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%201.png)
 
 Content Loss
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%202.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%202.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%202.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%202.png)
 
 Test Loss
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%203.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%203.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%203.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%203.png)
 
 Color Loss
 
 As you can see, the content loss and training loss seems can continue to decrease after 40,000 iterations but test loss and color loss had no improvement after 2000 iterations. Now let's review the product of our best model. First, I use
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC04138_iteration_29000_before_after.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC04138_iteration_29000_before_after.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC04138_iteration_29000_before_after.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC04138_iteration_29000_before_after.png)
 
 Left: Raw photo. Right: Model processed photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC04169_iteration_29000_before_after.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC04169_iteration_29000_before_after.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC04169_iteration_29000_before_after.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC04169_iteration_29000_before_after.png)
 
 Left: Raw photo. Right: Model processed photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC07510_iteration_38000_before_after.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC07510_iteration_38000_before_after.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC07510_iteration_38000_before_after.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC07510_iteration_38000_before_after.png)
 
 Left: Raw photo. Right: Model processed photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC09703_iteration_38000_before_after.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC09703_iteration_38000_before_after.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC09703_iteration_38000_before_after.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC09703_iteration_38000_before_after.png)
 
 Left: Raw photo. Right: Model processed photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC02867_iteration_29000_before_after.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC02867_iteration_29000_before_after.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC02867_iteration_29000_before_after.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC02867_iteration_29000_before_after.png)
 
 Left: Raw photo. Right: Model processed photo
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC06677_iteration_29000_before_after.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/sony_DSC06677_iteration_29000_before_after.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC06677_iteration_29000_before_after.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/sony_DSC06677_iteration_29000_before_after.png)
 
 Left: Raw photo. Right: Model processed photo
 
 The evaluation of this result are total subjective, in my opinion, the model learned edit style of the photographer (who took and edit the datasets). However, the style was not perfect, especially when dealing with red channels, all the red color seems to be over exaggerated. Then comparison between human edited photo and model edited have shown this:
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%204.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%204.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%204.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%204.png)
 
 Left: Model edited / Right: Human edited
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%205.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%205.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%205.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%205.png)
 
 Left: Model edited / Right: Human edited
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%206.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%206.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%206.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%206.png)
 
 Left: Model edited / Right: Human edited
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%207.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%207.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%207.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%207.png)
 
 Left: Model edited / Right: Human edited
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%208.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%208.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%208.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%208.png)
 
 Left: Model edited / Right: Human edited
 
-![Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%209.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%209.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%209.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%209.png)
 
 Left: Model edited / Right: Human edited
 
