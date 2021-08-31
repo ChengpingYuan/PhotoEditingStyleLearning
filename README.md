@@ -9,7 +9,7 @@ Status: Done 🙌
 
 Photographers have their own shooting and editing styles. Also editing is big part of their jobs routinely. Here I proposed a method by using Deep Neutral Network to learning the editing style from a certain photographer. The model will work as the automated photo editing tools for photographers. Freelancer photographers usually use more than half of their working time on photo editing or so called "photo retouch". It's hard to image that taking photos is just a small portion of their daily work as a freelancer photographer. Editing also makes big difference with final products, see examples below:
 
-![pics/DSC09738.jpg](pics/DSC09738.jpg)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC09738.jpg](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC09738.jpg)
 
 Raw photo
 
