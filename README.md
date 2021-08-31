@@ -13,7 +13,7 @@ Photographers have their own shooting and editing styles. Also editing is big pa
 
 Raw photo
 
-!https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819.jpg](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819.jpg)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819.jpg](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/DSC02819.jpg)
 
 Raw photo
 
