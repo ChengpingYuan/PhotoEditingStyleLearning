@@ -119,27 +119,27 @@ Left: Raw photo. Right: Model processed photo
 
 The evaluation of this result are total subjective, in my opinion, the model learned edit style of the photographer (who took and edit the datasets). However, the style was not perfect, especially when dealing with red channels, all the red color seems to be over exaggerated. Then comparison between human edited photo and model edited have shown this:
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled 204.png](<Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled 204.png>)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%4.png](<Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%4.png>)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%205.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%205.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%5.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%5.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%206.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%206.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%6.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%6.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%207.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%207.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%7.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%7.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%208.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%208.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%8.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%8.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%209.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%209.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%9.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%9.png)
 
 Left: Model edited / Right: Human edited
 
