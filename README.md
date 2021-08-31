@@ -123,23 +123,23 @@ The evaluation of this result are total subjective, in my opinion, the model lea
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%5.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%5.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%205.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%205.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%6.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%6.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%206.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%206.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%7.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%7.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%207.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%207.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%8.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%8.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%208.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%208.png)
 
 Left: Model edited / Right: Human edited
 
-![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%9.png](Deep%20Learning%20Project%20Repor%200bd5a1c483b14c2c98586ab3f70ab56a/Untitled%9.png)
+![https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%209.png](https://github.com/ChengpingYuan/PhotoEditingStyleLearning/blob/main/pic/Untitled%209.png)
 
 Left: Model edited / Right: Human edited
 
