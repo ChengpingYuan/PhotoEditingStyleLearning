@@ -1,8 +1,3 @@
-# Deep Learning Project Repor
-
-Date Created: April 22, 2021 9:54 PM
-Status: Done 🙌
-
 # Photographer editing style learning
 
 ## 1. Introduction
